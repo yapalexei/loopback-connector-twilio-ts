@@ -5,6 +5,12 @@
   "author": "Alexei Yagolnikov",
   "license": "MIT",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type" : "git",
+    "url" : "git@github.com:yapalexei/loopback-connector-twilio-ts.git"
+  },
+  "prepublish": "tsc",
   "scripts": {
     "build": "tsc",
     "format": "prettier --write \"src/**/*.ts\"",
