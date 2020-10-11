@@ -1,4 +1,4 @@
-import TwilioConnector from './TwilioConnector';
+import { TwilioConnector } from './TwilioConnector';
 
 export type DataSource = {
   [x: string]: unknown;

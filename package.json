@@ -1,10 +1,10 @@
 {
-  "name": "twilio-connector",
+  "name": "loopback-connector-twilio-ts",
   "version": "1.0.0",
-  "description": "",
+  "description": "A basic loopback (v4) connector for twilio",
   "author": "Alexei Yagolnikov",
-  "license": "ISC",
-  "main": "index.js",
+  "license": "MIT",
+  "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
     "format": "prettier --write \"src/**/*.ts\"",
