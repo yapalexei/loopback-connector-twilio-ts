@@ -1,5 +1,11 @@
 # Twilio Connector for Loopback 4
 This (twilio) connector/integration was built because there was none that worked with Loopback 4 that didn't need tweaking. I do want to give credit to the `loopback-connector-twilio` package for inspiring me to build my own. While I'm sure `loopback-connector-twilio` will work for earlier versions of loopback (<4) but for some reason I couldn't get it to work with lb4.
+## Install
+`yarn add loopback-connector-twilio-ts`
+
+or
+
+`npm install loopback-connector-twilio-ts`
 
 ### Supported message types:
 - `sms`
